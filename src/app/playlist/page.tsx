@@ -167,7 +167,7 @@ const PlaylistPage = () => {
         <p className="text-xl font-semibold">{currentMusicDetails.songName}</p>
         <p className="text-gray-400">{currentMusicDetails.songArtist}</p>
         <Image
-          src={currentMusicDetails.songAvatar || "/images/profiles.png"}
+          src={"/images/profiles.png"}
           alt="song Avatar"
           width={200}
           height={200}
